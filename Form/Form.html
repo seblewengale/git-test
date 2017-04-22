@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Web design</title>
+    <link rel="stylesheet" type="text/css" href="webform.css">
+  </head>
+  <body>
+ <h1>Responsive Web Design </h1>
+ <article>
+   <h2>Why do we have to use Responsive web design?</h2>
+   <p>
+     In designing the website every one should concern about the user .How can I  make the sites accessable and useble is good quetion.
+     Because now adays  mobile Internet usage is increasing steadily,
+     it’s extremely important that  website is mobile friendly. Usually this isn’t a major concern.
+     You have a website designed for desktop users and another site specifically developed for mobile users.
+     But, is it possible to have a site that is equally favorable for both desktop and mobile users?
+     When you have a website with responsive design, you can make changes quickly and easily.
+      You do not need to worry about making changes on two websites. This flexibility is a
+      huge advantage when you just want to make a quick design tweak
+      fix a typo on your site—you only have to do it once.
+   </p>
+   <fieldset>
+     <legend ><strong>Personal information</strong></legend>
+   <form>
+     <label>First name: </label>
+       <input type="text" name="First-name" size="35" value="" required>
+
+     <br>
+
+     <label for="Last-name">Last name:</label>
+     <input type="text" name="Last-name" id="Last-name" size="35" value="" required>
+     <br>
+
+     <label> DOB: </label>
+       <input type="date" name="DOB" value="" required >
+
+     <br>
+     <label> Email:</label>
+     <input type="email" name="email" size="35" value="" required>
+
+   <br>
+
+   <label> Gender:</label>
+    <input type="radio" name="Male" value="Male">
+    Male
+    <input type="radio" name="Female" value="Female">
+    Female
+
+    <br>
+
+    <label> Country:</label>
+    <select name="country">
+    <option value="None selected">Please select below</option>
+    <option value="United State">United State</option>
+    <option value="Other">Other</option>
+   </select>
+   <br>
+  <input type="reset" value="Reset">
+   <input type="submit"  value="Submit" />
+  </form>
+
+  </fieldset>
+ </article>
+ <br>
+ <fieldset>
+   <legend><strong>Please fill the Survey form.</strong></legend>
+   <label>1. Do you know what responsive web design is? </label>
+   <input type="checkbox" value="Yes" name="Yes">Yes
+   <input type="checkbox" value="No" name="No">No
+   <br>
+
+   <label>2.	When visiting a website, do you look for whether the page has a responsive layout?</label>
+   <input type="checkbox" value="Yes" name="Yes">Yes
+   <input type="checkbox" value="No" name="No">No
+   <br>
+   <label>3.	Why are you interested in making your website responsive?</label><br>
+   <input type="checkbox" value="Accessbility" name="Accessbility">Accessbility
+   <input type="checkbox" value="Flexibility" name="Flexibility">Flexibility
+   <input type="checkbox" value="Ease of management" name="Ease of management">Ease of Management<br>
+   <label><strong>Please leave your comment below</strong></label><br>
+   <textarea name="comments" rows="3" maxlength="200" cols="60"></textarea>
+   <br>
+   <input type="reset" value="Reset">
+   <input type="submit" value="Submit">
+ </fieldset>
+  </body>
+</html>
